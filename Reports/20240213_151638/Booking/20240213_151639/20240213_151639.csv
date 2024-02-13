@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking,,,,13-02-2024 15:16:44,13-02-2024 15:16:49,5.634s,PASSED
+,,,,,,,
+Test Cases/ChainBooking,,,,13-02-2024 15:16:44,13-02-2024 15:16:49,5.567s,PASSED
+"createBooking = sendRequest(findTestObject(""Object Repository/CreateBooking""))",,,,13-02-2024 15:16:44,13-02-2024 15:16:46,1.873s,PASSED
+bookingId = 0,,,,13-02-2024 15:16:46,13-02-2024 15:16:46,0.004s,PASSED
+"if (verifyResponseStatusCode(createBooking, 200))",,,,13-02-2024 15:16:46,13-02-2024 15:16:46,0.046s,PASSED
+"getBooking = sendRequest(findTestObject(""Object Repository/GetBooking"", [""id"":bookingId]))",,,,13-02-2024 15:16:46,13-02-2024 15:16:47,1.232s,PASSED
+bookingid = bookingId,,,,13-02-2024 15:16:47,13-02-2024 15:16:47,0.032s,PASSED

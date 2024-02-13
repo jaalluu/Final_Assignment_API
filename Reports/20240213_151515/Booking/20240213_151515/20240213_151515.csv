@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Booking,,,,13-02-2024 15:15:19,13-02-2024 15:15:24,4.549s,PASSED
+,,,,,,,
+Test Cases/CreateBooking,,,,13-02-2024 15:15:19,13-02-2024 15:15:24,4.473s,PASSED
+"response = sendRequest(findTestObject(""CreateBooking""))",,,,13-02-2024 15:15:20,13-02-2024 15:15:22,1.961s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,13-02-2024 15:15:22,13-02-2024 15:15:22,0.008s,PASSED
